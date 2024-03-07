@@ -1,0 +1,19 @@
+.contacts_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: auto;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.contacts_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+
+}

@@ -1,0 +1,13 @@
+.contacts_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #858585;
+    padding: 4px 0;
+}
+
+.button_wrapper {
+    display: flex;
+    gap: 10px
+}

@@ -1,0 +1,32 @@
+.form_wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 63px);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 320px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    padding: 48px 24px;
+    border-radius: 4px;
+}
+
+.register_link {
+    text-align: center;
+    margin-top: 20px;
+
+    a {
+        text-decoration: none;
+        color: #1976d2;
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}

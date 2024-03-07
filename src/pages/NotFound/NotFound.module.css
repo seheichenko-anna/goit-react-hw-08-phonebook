@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    min-height: calc(100vh - 63px);
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: #AD88C6;
+    font-size: 80px;
+    font-weight: normal;
+}
