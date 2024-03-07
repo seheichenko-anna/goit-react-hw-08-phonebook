@@ -28,10 +28,10 @@ const ContactForm = ({ formType = 'add', id = null, handleClose }) => {
     }
     if (formType === 'edit') {
       dispatch(editContactThunk({ ...newContact, id }));
+      handleClose();
     } else {
       dispatch(addContactThunk(newContact));
     }
-    handleClose();
     reset();
   };
 
