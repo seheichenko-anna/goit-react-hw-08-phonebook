@@ -35,10 +35,9 @@ const slice = createSlice({
         state.contacts.items.push(payload);
       })
       .addCase(deleteContactThunk.fulfilled, (state, { payload }) => {
-        const index = state.contacts.items.findIndex(
-          contact => contact.id === payload
+        state.contacts.items = state.contacts.items.filter(
+          contact => contact.id !== payload
         );
-        state.contacts.items.splice(index, 1);
       })
       .addCase(editContactThunk.fulfilled, (state, { payload }) => {
         const index = state.contacts.items.findIndex(
